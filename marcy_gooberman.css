@@ -1,0 +1,498 @@
+/*__                                      __     
+                              $$\       
+                              $$ |      
+ $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$$\  
+$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ 
+$$ /  $$ |$$ /  $$ |$$ /  $$ |$$ |  $$ |
+$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |
+\$$$$$$$ |\$$$$$$  |\$$$$$$  |$$$$$$$  |
+ \____$$ | \______/  \______/ \_______/ 
+$$\   $$ |                              
+\$$$$$$  |                              
+ \______/                               /*/
+
+
+
+@media screen and (min-width: 0px) {
+/* BODY */
+
+
+body {
+	margin: 0 20px;
+}
+
+h1 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 400; 
+	font-size: 1.1rem;
+	line-height: 1.5rem;
+	color: #EF4123; 
+    margin: 0 auto;
+    text-align: center;
+	text-rendering: optimizeLegibility;
+	}
+
+h2 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 400; 
+	color: #EF4123; 
+   	font-size: .9rem;
+    margin: 0 auto;
+    text-align: left;
+	text-rendering: optimizeLegibility;
+	}
+
+h3 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 600; 
+	color: #414141; 
+   	font-size: .9rem;
+    margin: 0 auto;
+    text-align: center;
+	text-rendering: optimizeLegibility;
+	padding-bottom: 2px;
+	}	
+
+h4 {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-weight: 400; 
+	color: #A0A09F; 
+   	font-size: .7rem;
+    margin: 0 auto;
+    text-align: center;
+	text-rendering: optimizeLegibility;
+	padding-bottom: 12px;
+	}	
+
+/* NAVIGATION */
+
+#navbar {
+	display: grid;
+	min-height: 100px;
+	grid-auto-flow: column;
+	grid-gap: 20px;
+	margin: 10px 0;
+
+}
+
+#logo {
+	display: grid;
+	justify-content: start;
+	align-content: center;
+	  transition: 0.50s;
+
+  
+}
+
+.logo {
+	max-width: 30%;
+	  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+}
+
+.logo:hover {
+	transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -moz-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#about {
+	display: grid;
+	justify-content: end;
+	align-content: center;
+	grid-auto-flow: column;
+}
+
+a {
+	text-decoration: none;
+	color: #FF9B66;
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: .9rem;
+
+
+}
+
+a:hover {
+	color: #EF4123;
+}
+
+
+/* INDEX */
+
+
+.index-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	grid-row-gap: 20px;
+}
+
+.grid-box img {
+	width: 100%;
+	padding-bottom: .3rem;
+}
+
+.grid-box img:hover {
+	opacity: .7;
+}
+
+
+/* PROJECT PAGE */
+
+.project-single {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	grid-gap: 10px;
+}
+
+.project img {
+	width: 100%;
+}
+
+
+
+.text {
+	padding: 40px 0;
+	max-width: 348px;
+	margin: 0 auto;
+}
+
+.project-single.text {
+	padding-top: 0px;
+	max-width: 248px;
+}
+
+.project-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	grid-gap: 10px;
+}
+
+.project-next {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	grid-gap: 20px;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+/* FOOTER */
+
+footer {
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #A9A9A9;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-size: .7rem;
+}
+
+}
+
+
+/* BREAKPOINT */
+
+
+@media screen and (min-width: 480px) {
+
+body {
+	margin: 0 40px;
+	}
+
+h1 { 
+	font-size: 1.5rem;
+	line-height: 2rem;
+	}
+
+h2 {
+   	font-size: 1.1rem;
+	}
+
+h3 { 
+   	font-size: 1.1rem;
+	padding-bottom: 4px;
+	}	
+
+h4 {
+   	font-size: .9rem;
+	padding-bottom: 16px;
+	}	
+
+.logo {
+	max-width: 35%;
+}
+
+
+a {
+	font-size: 1rem;
+}
+
+
+.index-grid {
+	grid-row-gap: 30px;
+}
+
+.grid-box img {
+	padding-bottom: .3rem;
+}
+
+
+.text {
+	padding: 60px 20px;
+	max-width: 550px;
+}
+
+.project-single.text {
+	padding-top: 10px;
+	max-width: 440px;
+	padding-bottom: 40px;
+}
+
+
+}
+
+
+
+/* BREAKPOINT */
+
+@media screen and (min-width: 768px) {
+
+h1 { 
+	font-size: 2rem;
+	line-height: 2.8rem;
+	}
+
+h2 {
+   	font-size: 1.3rem;
+	}
+
+h3 { 
+   	font-size: 1.3rem;
+	}	
+
+h4 {
+   	font-size: 1rem;
+	padding-bottom: 20px;
+	}	
+
+.logo {
+	max-width: 40%;
+}
+
+
+a {
+	font-size: 1.1rem;
+}
+
+
+.index-grid {
+	grid-row-gap: 50px;
+}
+
+.grid-box img {
+	padding-bottom: .5rem;
+}
+
+
+.text {
+	padding: 80px 20px;
+	max-width: 640px;
+}
+
+.project-single.text {
+	padding-top: 50px;
+	padding-bottom: 80px;
+	max-width: 500px;
+}
+
+.project-grid.ww {
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+}
+
+}
+
+
+/* BREAKPOINT */
+
+@media screen and (min-width: 1024px) {
+
+body {
+	margin: 0 60px;
+}
+
+h1 { 
+	font-size: 2.3rem;
+	line-height: 3.2rem;
+}
+
+h2 {
+   	font-size: 1.2rem;
+}
+
+h3 { 
+   	font-size: 1.5rem;
+}	
+
+h4 {
+   	font-size: 1.1rem;
+	padding-bottom: 24px;
+}	
+
+
+
+
+.logo {
+	max-width: 45%;
+}
+
+
+a {
+	font-size: 1.2rem;
+}
+
+#navbar {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+.index-grid {
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap: 40px;
+	grid-column-gap: 20px;
+}
+
+.grid-box img {
+	padding-bottom: .3rem;
+}
+
+
+.text {
+	padding: 100px 20px;
+}
+
+.project-single.text {
+	padding-bottom: 100px;
+	max-width: 600px;
+}
+
+.text {
+	padding: 100px 20px;
+	max-width: 750px;
+}
+
+.project-single {
+	grid-gap: 20px;
+}
+
+.project-grid {
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+footer {
+	padding-top: 70px;
+	padding-bottom: 30px;
+	font-size: .8rem;
+}
+
+}
+
+/* BREAKPOINT */
+
+@media screen and (min-width: 1240px) {
+
+body {
+	margin: 0 80px;
+	}
+
+h1 { 
+	font-size: 2.5rem;
+	line-height: 3.6rem;
+	}
+
+h2 {
+   	font-size: 1.3rem;
+	}	
+
+
+h3 {
+	font-size: 1.7rem;
+}
+
+h4 {
+   	font-size: 1.2rem;
+	padding-bottom: 26px;
+	}	
+
+.logo {
+	max-width: 50%;
+}
+
+
+a {
+	font-size: 1.3rem;
+}
+
+
+
+
+.text {
+	padding: 125px 20px;
+	max-width: 800px;
+}
+
+.project-single.text {
+	max-width: 600px;
+}
+
+.project-grid {
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+footer {
+	padding-top: 100px;
+	padding-bottom: 30px;
+	font-size: .9rem;
+}
+
+}
+
+@media screen and (min-width: 1840px) {
+
+body {
+	margin: 0 auto;
+	max-width: 1680px;
+	}
+
