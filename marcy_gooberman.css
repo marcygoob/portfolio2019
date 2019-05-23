@@ -206,6 +206,35 @@ a:hover {
   padding-top: 75%;
 }
 
+
+/* ABOUT */
+
+img.bio {
+	
+	padding-bottom: 20px;
+	
+}
+
+h1.bio {
+	padding-bottom: 20px;
+	max-width: 250px;
+
+}
+
+h4.bio {
+	padding-bottom: 3px;
+}
+
+a.bio {
+	font-size: 1.1rem;
+	color: #EF4123
+}
+
+a.bio:hover {
+	color: #FF9B66;
+}
+
+
 /* FOOTER */
 
 footer {
@@ -216,6 +245,7 @@ footer {
 	padding-bottom: 20px;
 	font-size: .7rem;
 }
+
 
 }
 
@@ -276,6 +306,21 @@ a {
 	padding-top: 10px;
 	max-width: 440px;
 	padding-bottom: 40px;
+}
+
+
+
+h1.bio {
+	padding-bottom: 40px;
+	max-width: 380px;
+}
+
+h4.bio {
+	padding-bottom: 5px;
+}
+
+a.bio {
+	font-size: 1.5rem;
 }
 
 
@@ -340,6 +385,24 @@ a {
 	grid-column-gap: 20px;
 }
 
+
+
+h1.bio {
+	max-width: 480px;
+}
+
+h4.bio {
+	padding-bottom: 6px;
+}
+
+a.bio {
+	font-size: 2rem;
+	color: #EF4123
+}
+
+a.bio:hover {
+	color: #FF9B66;
+}
 }
 
 
@@ -420,6 +483,17 @@ a {
 	grid-gap: 20px;
 }
 
+
+
+
+h4.bio {
+	padding-bottom: 6px;
+}
+
+a.bio {
+	font-size: 2.3rem;
+}
+
 footer {
 	padding-top: 70px;
 	padding-bottom: 30px;
@@ -466,6 +540,15 @@ a {
 
 
 
+a.bio {
+	font-size: 2.5rem;
+}
+
+h1.bio {
+	max-width: 580px;
+}
+
+
 
 .text {
 	padding: 125px 20px;
@@ -481,6 +564,7 @@ a {
 	grid-gap: 20px;
 }
 
+
 footer {
 	padding-top: 100px;
 	padding-bottom: 30px;
@@ -488,6 +572,9 @@ footer {
 }
 
 }
+
+
+/* MAX WIDTH */
 
 @media screen and (min-width: 1840px) {
 
